@@ -41,19 +41,17 @@
         ]
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
+        "lastModified": 1647064682,
+        "narHash": "sha256-KU/UdCOkRq9R993A3d5UfTt0maP2vH1I2Y8QEogasW0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "libsodium",
+        "rev": "5c2b00d8d945639296de0bb2ce5845a53aa3a8fb",
         "type": "github"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "libsodium",
         "type": "github"
       }
     },
@@ -70,20 +68,13 @@
         "src-libsodium-0_2_2": "src-libsodium-0_2_2"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_2_2",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-lHweTNzGuycy+rXw0BJrDedjnPh9CrmZqEoD2cgChRI=",
+        "path": "./0_2_2",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_2_2",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_2_2",
+        "type": "path"
       }
     },
     "libsodium-0_3_0": {
@@ -99,20 +90,13 @@
         "src-libsodium-0_3_0": "src-libsodium-0_3_0"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_3_0",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-7S5fkAPXY3cJx8Y1TP1NHwdrb70+Zu6XzljsXHY+pSs=",
+        "path": "./0_3_0",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_3_0",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_3_0",
+        "type": "path"
       }
     },
     "libsodium-0_4_0": {
@@ -128,20 +112,13 @@
         "src-libsodium-0_4_0": "src-libsodium-0_4_0"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_4_0",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-jWBT6HQeiZXGC9ml+30XQOZ8mvxXBa8nTgB+aQdrLaQ=",
+        "path": "./0_4_0",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_4_0",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_4_0",
+        "type": "path"
       }
     },
     "libsodium-0_4_1": {
@@ -157,20 +134,13 @@
         "src-libsodium-0_4_1": "src-libsodium-0_4_1"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_4_1",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-4m/1InULIjR4YQ04/f96ZeDMi2OyMaNr8+Mzw0WYzO4=",
+        "path": "./0_4_1",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_4_1",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_4_1",
+        "type": "path"
       }
     },
     "libsodium-0_4_2": {
@@ -186,20 +156,13 @@
         "src-libsodium-0_4_2": "src-libsodium-0_4_2"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_4_2",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-0BFfYRLsMHPYM+iYWMqK0c/QPuHBJgMEnOR2s9k3OiA=",
+        "path": "./0_4_2",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_4_2",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_4_2",
+        "type": "path"
       }
     },
     "libsodium-0_5_0": {
@@ -215,20 +178,13 @@
         "src-libsodium-0_5_0": "src-libsodium-0_5_0"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_5_0",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-0yG4CxL4GmK1RrUlKiNOMP68d8ImqCjw/fLq/5HkthI=",
+        "path": "./0_5_0",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_5_0",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_5_0",
+        "type": "path"
       }
     },
     "libsodium-0_6_0": {
@@ -244,20 +200,13 @@
         "src-libsodium-0_6_0": "src-libsodium-0_6_0"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_6_0",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-aobX1W9sgxPl/Ks7sLPEHVVjjp1tclX5CHPbwwdf1mI=",
+        "path": "./0_6_0",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_6_0",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_6_0",
+        "type": "path"
       }
     },
     "libsodium-0_7_0": {
@@ -273,20 +222,13 @@
         "src-libsodium-0_7_0": "src-libsodium-0_7_0"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_7_0",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-JBfTz4ngD7S110uk/kuhAzKS8ddiIluH9k/fOXhsQXU=",
+        "path": "./0_7_0",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_7_0",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_7_0",
+        "type": "path"
       }
     },
     "libsodium-0_7_1": {
@@ -302,20 +244,13 @@
         "src-libsodium-0_7_1": "src-libsodium-0_7_1"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/0_7_1",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-Yd8Vf0X6uG3d2TW0o+AyGr8GEnqZ7IREN9byxqqWlJM=",
+        "path": "./0_7_1",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/0_7_1",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./0_7_1",
+        "type": "path"
       }
     },
     "libsodium-master": {
@@ -331,20 +266,13 @@
         "src-libsodium-master": "src-libsodium-master"
       },
       "locked": {
-        "dir": "nimpkgs/l/libsodium/master",
-        "lastModified": 1646967406,
-        "narHash": "sha256-7yY969affJjYe7EtRovP3OFMPrYRzrXc++2HXXrXxiQ=",
-        "owner": "riinr",
-        "repo": "flake-nimble",
-        "rev": "d80bdf6d01990666bf845a0d6c3d09ee79633b08",
-        "type": "github"
+        "narHash": "sha256-lMflMeuizVtHm+6YYcRnWtbdTX4qehwXkkSAyqgZOik=",
+        "path": "./master",
+        "type": "path"
       },
       "original": {
-        "dir": "nimpkgs/l/libsodium/master",
-        "owner": "riinr",
-        "ref": "flake-pinning",
-        "repo": "flake-nimble",
-        "type": "github"
+        "path": "./master",
+        "type": "path"
       }
     },
     "nixpkgs": {
