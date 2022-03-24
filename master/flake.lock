@@ -7,11 +7,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1647920574,
-        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
         "owner": "riinr",
         "repo": "nim-flakes-lib",
-        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
         "type": "github"
       },
       "original": {
@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "0_7_1",
-        "lastModified": 1647934260,
-        "narHash": "sha256-mKxDG3bAEvbU2PobojVqAwxIwnt9eWNo5q1R/Pv4UZc=",
+        "lastModified": 1648107729,
+        "narHash": "sha256-Bnjs7PrwY2Kxgo0TUWucBdtR9CRGihlkdi7Byj7PGZI=",
         "owner": "nim-nix-pkgs",
         "repo": "libsodium",
-        "rev": "b0afa387a7d32eee054f12f309a1c0887d00b6de",
+        "rev": "9fa88ce1a34907337b3c54b903d29d45fad02742",
         "type": "github"
       },
       "original": {
