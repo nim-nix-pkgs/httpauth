@@ -11,6 +11,7 @@
   inputs.src-httpauth-0_1_3.ref   = "refs/tags/0.1.3";
   inputs.src-httpauth-0_1_3.owner = "FedericoCeratto";
   inputs.src-httpauth-0_1_3.repo  = "nim-httpauth";
+  inputs.src-httpauth-0_1_3.dir   = "";
   inputs.src-httpauth-0_1_3.type  = "github";
   
   inputs."libsodium".owner = "nim-nix-pkgs";
