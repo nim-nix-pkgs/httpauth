@@ -11,7 +11,6 @@
   inputs.src-httpauth-master.ref   = "refs/heads/master";
   inputs.src-httpauth-master.owner = "FedericoCeratto";
   inputs.src-httpauth-master.repo  = "nim-httpauth";
-  inputs.src-httpauth-master.dir   = "";
   inputs.src-httpauth-master.type  = "github";
   
   inputs."libsodium".owner = "nim-nix-pkgs";
