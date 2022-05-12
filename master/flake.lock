@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "0_7_1",
-        "lastModified": 1651918084,
-        "narHash": "sha256-mQkWYpw5SmydwNfV1zLPeR48Av573s8JpJqq7btDBX0=",
+        "lastModified": 1652391180,
+        "narHash": "sha256-7FSjlJBgql6ynAu+lulmabVPU3Yor+9BMI72udZet4Y=",
         "owner": "nim-nix-pkgs",
         "repo": "libsodium",
-        "rev": "ce2a0097da757cb7bc7507812e3772a477151783",
+        "rev": "3d174edd066710f92b1df2d151a6baaf110ce1f4",
         "type": "github"
       },
       "original": {
