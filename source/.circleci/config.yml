@@ -1,0 +1,45 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: nimlang/nim
+      - image: mysql:5.7
+        environment:
+          MYSQL_ALLOW_EMPTY_PASSWORD: true
+          MYSQL_DATABASE: "httpauth_test"
+          MYSQL_ROOT_PASSWORD: ''
+      - image: circleci/postgres:9.6.2-alpine
+        environment:
+          POSTGRES_USER: root
+          POSTGRES_DB: circle-test_test
+      - image: circleci/mongo:latest
+      - image: bitnami/etcd:latest
+        environment:
+          ALLOW_NONE_AUTHENTICATION=yes
+      - image: bitnami/redis:latest
+        environment:
+          - ALLOW_EMPTY_PASSWORD=yes
+    steps:
+      - run: echo 'export PATH=~/.nimble/bin:$PATH' >> $BASH_ENV
+      - checkout
+      - run:
+          command: |
+            apt-get update
+            apt-get install -y --no-install-recommends make libmysqlclient-dev libmysqlclient21 mysql-client libpq5 libsodium23
+            nimble install libsodium -y
+            nimble install etcd_client -y
+            # MongoDB deps
+            apt-get install -y mongodb-clients
+            nimble install -y scram@#head
+            nimble install -y sha1@#head
+            nimble install -y hmac@#head
+            nimble install -y nimongo@#head
+            # Redis
+            nimble install -y redis@#head
+      - run:
+          command: make circleci
+      - store_artifacts:
+          path: test-reports/
+          destination: tr1
+      - store_test_results:
+          path: test-reports/
