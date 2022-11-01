@@ -33,11 +33,11 @@
       },
       "locked": {
         "dir": "0_7_1",
-        "lastModified": 1662254578,
-        "narHash": "sha256-YMOwrlh+ABCS0Aubxb8Fhek7S1Zyi7eVPLo9eyWBY4w=",
+        "lastModified": 1667322398,
+        "narHash": "sha256-g+5EDGRStHOAluF618J0BbO1Hwk2WCYwQFS6FxrEeZA=",
         "owner": "nim-nix-pkgs",
         "repo": "libsodium",
-        "rev": "19f5dcf8f0002733319054c3046b25d14f285389",
+        "rev": "b54794099dcdc9c026b756efaf783f51d18f5e14",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1662096612,
-        "narHash": "sha256-R+Q8l5JuyJryRPdiIaYpO5O3A55rT+/pItBrKcy7LM4=",
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "21de2b973f9fee595a7a1ac4693efff791245c34",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
         "type": "github"
       },
       "original": {
